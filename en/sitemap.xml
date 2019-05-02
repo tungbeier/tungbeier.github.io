@@ -8,43 +8,6 @@
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/posts/2019/03/my-first-post/</loc>
-    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/about/</loc>
-    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://tungbeier.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tungbeier.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/first-step/</loc>
-    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/git/</loc>
-    <lastmod>2019-03-07T20:48:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://tungbeier.github.io/posts/</loc>
     <lastmod>2019-03-07T20:48:24+01:00</lastmod>
     <priority>0</priority>
@@ -52,7 +15,7 @@
   
   <url>
     <loc>https://tungbeier.github.io/tags/</loc>
-    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
+    <lastmod>2019-03-07T20:48:24+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -79,6 +42,38 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tungbeier.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/tags/git/</loc>
+    <lastmod>2019-03-07T20:48:24+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/tags/first-step/</loc>
+    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/posts/2019/03/my-first-post/</loc>
+    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/index.html</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://tungbeier.github.io/fr/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tungbeier.github.io/index.html"
                 />
   </url>
   
