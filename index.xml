@@ -2,13 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tung Beier</title>
-    <link>https://tungbeier.github.io/index.html</link>
+    <link>https://tungbeier.github.io/</link>
     <description>Recent content on Tung Beier</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 05 May 2019 22:28:07 +0200</lastBuildDate>
     
 	<atom:link href="https://tungbeier.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to update git submodules</title>
+      <link>https://tungbeier.github.io/posts/2019/05/how-to-update-git-submodules/</link>
+      <pubDate>Sun, 05 May 2019 22:28:07 +0200</pubDate>
+      
+      <guid>https://tungbeier.github.io/posts/2019/05/how-to-update-git-submodules/</guid>
+      <description>In your git repository you can have one or multiple others git repositories as submodule. To add a git repository as a submodule, use the following command:
+git submodule add &amp;lt;submodule git url&amp;gt; &amp;lt;local path to the submodule repository&amp;gt;  To update all of the submodules, issues the following command:
+ version &amp;gt;= 1.8.2
+git submodule update --recursive --remote  version &amp;gt;= 1.7.3
+git submodule update --recursive  or
+git pull --recurse-submodules  Note: In case the repository is checked out for the first time, the --init option has to be used.</description>
+    </item>
+    
+    <item>
+      <title>How to change the author of git commit</title>
+      <link>https://tungbeier.github.io/posts/2019/03/how-to-change-the-author-of-git-commit/</link>
+      <pubDate>Thu, 07 Mar 2019 20:48:24 +0100</pubDate>
+      
+      <guid>https://tungbeier.github.io/posts/2019/03/how-to-change-the-author-of-git-commit/</guid>
+      <description>To change the author of a git commit, do the following:
+git rebase -i &amp;lt;commit-hash&amp;gt; git commit --amend --author=&amp;quot;name &amp;lt;email@mail.com&amp;gt;&amp;quot; git rebase --continue  </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://tungbeier.github.io/posts/2019/03/my-first-post/</link>
+      <pubDate>Thu, 07 Mar 2019 19:56:42 +0100</pubDate>
+      
+      <guid>https://tungbeier.github.io/posts/2019/03/my-first-post/</guid>
+      <description>This is created with hugo new ./content/posts/my-first-post.md.</description>
+    </item>
     
   </channel>
 </rss>
