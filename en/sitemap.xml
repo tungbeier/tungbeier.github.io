@@ -68,17 +68,17 @@
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/index.html</loc>
+    <loc>https://tungbeier.github.io/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://tungbeier.github.io/de/index.html"
+                href="https://tungbeier.github.io/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tungbeier.github.io/index.html"
+                href="https://tungbeier.github.io/categories/"
                 />
   </url>
   
