@@ -19,8 +19,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://tungbeier.github.io/fr/tags/"
+                hreflang="de"
+                href="https://tungbeier.github.io/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -35,8 +35,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://tungbeier.github.io/fr/"
+                hreflang="de"
+                href="https://tungbeier.github.io/de/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -57,14 +57,14 @@
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/tags/first-step/</loc>
+    <loc>https://tungbeier.github.io/posts/2019/03/create-post-with-hugo/</loc>
     <lastmod>2019-03-07T19:56:42+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/posts/2019/03/my-first-post/</loc>
+    <loc>https://tungbeier.github.io/tags/hugo-cli/</loc>
     <lastmod>2019-03-07T19:56:42+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -72,8 +72,8 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://tungbeier.github.io/fr/index.html"
+                hreflang="de"
+                href="https://tungbeier.github.io/de/index.html"
                 />
     <xhtml:link
                 rel="alternate"

@@ -1,55 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://tungbeier.github.io/posts/2019/05/how-to-update-git-submodules/</loc>
-    <lastmod>2019-05-05T22:28:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/posts/</loc>
-    <lastmod>2019-05-05T22:28:07+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/</loc>
-    <lastmod>2019-05-05T22:28:07+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/</loc>
-    <lastmod>2019-05-05T22:28:07+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/git/</loc>
-    <lastmod>2019-05-05T22:28:07+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/posts/2019/03/how-to-change-the-author-of-git-commit/</loc>
-    <lastmod>2019-03-07T20:48:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/first-step/</loc>
-    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/posts/2019/03/my-first-post/</loc>
-    <lastmod>2019-03-07T19:56:42+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/index.html</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://tungbeier.github.io/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-05-05T22:28:07+02:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://tungbeier.github.io/de/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

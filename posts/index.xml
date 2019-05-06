@@ -15,44 +15,29 @@
             
             <guid>https://tungbeier.github.io/posts/2019/05/how-to-update-git-submodules/</guid>
             <description>In your git repository you can have one or multiple others git repositories as submodule. To add a git repository as a submodule, use the following command:
-git submodule add &amp;lt;submodule git url&amp;gt; &amp;lt;local path to the submodule repository&amp;gt;  To update all of the submodules, issues the following command:
+git submodule add &amp;lt;submodule git url&amp;gt; &amp;lt;local path to the submodule repository&amp;gt; To update all of the submodules, issues the following command:
  version &amp;gt;= 1.8.2
-git submodule update --recursive --remote  version &amp;gt;= 1.7.3
-git submodule update --recursive  or
-git pull --recurse-submodules  Note: In case the repository is checked out for the first time, the --init option has to be used.</description>
+git submodule update --recursive --remote version &amp;gt;= 1.7.3
+git submodule update --recursive or
+git pull --recurse-submodules Note: In case the repository is checked out for the first time, the --init option has to be used.</description>
             <content type="html"><![CDATA[<p>In your git repository you can have one or multiple others git repositories as submodule.
 To add a git repository as a submodule, use the following command:</p>
-
-<pre><code>git submodule add &lt;submodule git url&gt; &lt;local path to the submodule repository&gt;
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule add &lt;submodule git url&gt; &lt;local path to the submodule repository&gt;</code></pre></div>
 <p>To update all of the submodules, issues the following command:</p>
 
 <ul>
 <li><p><em>version &gt;= 1.8.2</em></p>
-
-<pre><code>git submodule update --recursive --remote
-</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule update --recursive --remote</code></pre></div></li>
 
 <li><p><em>version &gt;= 1.7.3</em></p>
-
-<pre><code>git submodule update --recursive
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule update --recursive</code></pre></div>
 <p>or</p>
-
-<pre><code>git pull --recurse-submodules
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git pull --recurse-submodules</code></pre></div>
 <p>Note: In case the repository is checked out for <em>the first time</em>, the <code>--init</code> option has to be used.</p>
-
-<pre><code>git submodule update --init --recursive
-</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule update --init --recursive</code></pre></div></li>
 
 <li><p><em>version &lt; 1.7.3</em></p>
-
-<pre><code>git submodule foreach git pull origin master
-</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule foreach git pull origin master</code></pre></div></li>
 </ul>
 ]]></content>
         </item>
@@ -64,25 +49,23 @@ To add a git repository as a submodule, use the following command:</p>
             
             <guid>https://tungbeier.github.io/posts/2019/03/how-to-change-the-author-of-git-commit/</guid>
             <description>To change the author of a git commit, do the following:
-git rebase -i &amp;lt;commit-hash&amp;gt; git commit --amend --author=&amp;quot;name &amp;lt;email@mail.com&amp;gt;&amp;quot; git rebase --continue  </description>
+git rebase -i &amp;lt;commit-hash&amp;gt; git commit --amend --author=&amp;#34;name &amp;lt;email@mail.com&amp;gt;&amp;#34; git rebase --continue</description>
             <content type="html"><![CDATA[<p>To change the author of a git commit, do the following:</p>
-
-<pre><code>git rebase -i &lt;commit-hash&gt;
-git commit --amend --author=&quot;name &lt;email@mail.com&gt;&quot;
-git rebase --continue
-</code></pre>
-]]></content>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git rebase -i &lt;commit-hash&gt;
+git commit --amend --author=&#34;name &lt;email@mail.com&gt;&#34;
+git rebase --continue</code></pre></div>]]></content>
         </item>
         
         <item>
-            <title>My First Post</title>
-            <link>https://tungbeier.github.io/posts/2019/03/my-first-post/</link>
+            <title>Create post with hugo</title>
+            <link>https://tungbeier.github.io/posts/2019/03/create-post-with-hugo/</link>
             <pubDate>Thu, 07 Mar 2019 19:56:42 +0100</pubDate>
             
-            <guid>https://tungbeier.github.io/posts/2019/03/my-first-post/</guid>
-            <description>This is created with hugo new ./content/posts/my-first-post.md.</description>
-            <content type="html"><![CDATA[<p>This is created with <code>hugo new ./content/posts/my-first-post.md</code>.</p>
-]]></content>
+            <guid>https://tungbeier.github.io/posts/2019/03/create-post-with-hugo/</guid>
+            <description>To create a post with hugo CLI, use
+hugo new .</description>
+            <content type="html"><![CDATA[<p>To create a post with hugo CLI, use</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hugo" data-lang="hugo">hugo new ./content/posts/my-first-post.md</code></pre></div>]]></content>
         </item>
         
     </channel>
