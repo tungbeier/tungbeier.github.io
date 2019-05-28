@@ -64,8 +64,58 @@ The default root password is <em>root</em>.</p></li>
 <li><p>Initialize the pacman keyring and populate the Arch Linux ARM
 <a href="https://archlinuxarm.org/about/package-signing">package signing keys</a>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pacman-key --init
-pacman-key --populate archlinuxarm</code></pre></div></li>
+pacman-key --populate archlinuxarm
+pacman -Syyuu
+reboot</code></pre></div></li>
+
+<li><p>Set hardware clock to UTC and set timezone (here &quot;Europe/Berlin&quot;)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">timedatectl set-local-rtc <span style="color:#ae81ff">0</span>
+ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime</code></pre></div></li>
+
+<li><p>NTP</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pacman -S ntp fake-hwclock
+systemctl enable ntpd.service
+systemctl start ntpd.service</code></pre></div></li>
+
+<li><p>User setup<br/>
+Change the password for root</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">passwd</code></pre></div>
+<p>Set the hostname of your Pi as per your preference</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hostnamectl set-hostname YOURHOSTNAME</code></pre></div>
+<p>Install sudo and vim</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pacman -S sudo vim</code></pre></div>
+<p>Enable the wheel group, create your user, and add the user to the group.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">visudo</code></pre></div>
+<p>Search for the line contains <code>%wheel ALL=(ALL) ALL</code>.
+Uncomment it and save the file.<br/></p>
+
+<p>Create your user, set your password and delete the default user.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">useradd -m -G wheel -s /bin/bash YOURUSERNAME
+passwd YOURUSERNAME
+userdel alarm</code></pre></div>
+<p>Log out and log back in as the new user.</p></li>
+
+<li><p>Setup swap (Optional)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">fallocate -l 1024M /swapfile
+chmod <span style="color:#ae81ff">600</span> /swapfile
+mkswap /swapfile
+swapon /swapfile
+echo <span style="color:#e6db74">&#39;vm.swappiness=1&#39;</span> &gt; /etc/sysctl.d/99-sysctl.conf</code></pre></div>
+<p>Configure <em>fstab</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/swapfile none swap defaults <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span></code></pre></div></li>
+
+<li><p>Increase the life of the SD card, add the following to <code>/etc/fstab</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/dev/root  /  ext4  defaults,nodiratime,noatime,discard  <span style="color:#ae81ff">0</span>  <span style="color:#ae81ff">0</span></code></pre></div></li>
 </ol>
+
+<h4 id="sources">Sources</h4>
+
+<ul>
+<li><a href="https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3">ArchLinux ARM Installation Guide</a></li>
+<li><a href="https://github.com/phortx/Raspberry-Pi-Setup-Guide">phortx Raspberry Pi Setup Guide</a></li>
+<li><a href="https://gist.github.com/theramiyer/cb2b406128e54faa12c37e1a01f7ae15">theamiyer Install ArchLinux ARM Guide</a></li>
+<li><a href="https://www.youtube.com/watch?v=oHuv0U6FnKw">Wolfgang's Channel Installing ArchLinux ARM</a></li>
+</ul>
 ]]></content>
         </item>
         
