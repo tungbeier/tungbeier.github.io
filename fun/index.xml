@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funs on Tung Beier</title>
+    <link>https://tungbeier.github.io/fun/</link>
+    <description>Recent content in Funs on Tung Beier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 15:39:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://tungbeier.github.io/fun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>If the World Was Created by a Programmer</title>
+      <link>https://tungbeier.github.io/fun/if-the-world-was-created-by-a-programmer/</link>
+      <pubDate>Sun, 23 Jun 2019 15:39:00 +0200</pubDate>
+      
+      <guid>https://tungbeier.github.io/fun/if-the-world-was-created-by-a-programmer/</guid>
+      <description>See the original post at toggl blog.</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Horse With Programming</title>
+      <link>https://tungbeier.github.io/fun/how-to-build-a-horse-with-programming/</link>
+      <pubDate>Sun, 23 Jun 2019 14:11:54 +0200</pubDate>
+      
+      <guid>https://tungbeier.github.io/fun/how-to-build-a-horse-with-programming/</guid>
+      <description>See the original post at toggl blog.</description>
+    </item>
+    
+  </channel>
+</rss>

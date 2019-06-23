@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tungbeier.github.io/posts/2019/05/install-arch-arm-on-raspberry-pi/</loc>
-    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/posts/</loc>
-    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
+    <loc>https://tungbeier.github.io/fun/</loc>
+    <lastmod>2019-06-23T15:39:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://tungbeier.github.io/fun/if-the-world-was-created-by-a-programmer/</loc>
+    <lastmod>2019-06-23T15:39:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tungbeier.github.io/tags/</loc>
-    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
+    <lastmod>2019-06-23T15:39:00+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -31,7 +31,7 @@
   
   <url>
     <loc>https://tungbeier.github.io/</loc>
-    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
+    <lastmod>2019-06-23T15:39:00+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -43,6 +43,34 @@
                 hreflang="en"
                 href="https://tungbeier.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/tags/posts/</loc>
+    <lastmod>2019-06-23T15:39:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/fun/how-to-build-a-horse-with-programming/</loc>
+    <lastmod>2019-06-23T14:11:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/tags/fun/</loc>
+    <lastmod>2019-06-23T14:11:54+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/posts/2019/05/install-arch-arm-on-raspberry-pi/</loc>
+    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/posts/</loc>
+    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
