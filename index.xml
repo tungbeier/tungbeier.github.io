@@ -6,13 +6,22 @@
     <description>Recent content on Tung Beier</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 23 Jun 2019 15:39:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 21:24:42 +0200</lastBuildDate>
     
 	<atom:link href="https://tungbeier.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>If the World Was Created by a Programmer</title>
+      <title>Bug Fixing Ways</title>
+      <link>https://tungbeier.github.io/fun/bug-fixing-ways/</link>
+      <pubDate>Mon, 22 Jul 2019 21:24:42 +0200</pubDate>
+      
+      <guid>https://tungbeier.github.io/fun/bug-fixing-ways/</guid>
+      <description>See the original post and more at monkeyuser.com.</description>
+    </item>
+    
+    <item>
+      <title>If the world was created by a programmer</title>
       <link>https://tungbeier.github.io/fun/if-the-world-was-created-by-a-programmer/</link>
       <pubDate>Sun, 23 Jun 2019 15:39:00 +0200</pubDate>
       
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>How to Build a Horse With Programming</title>
+      <title>How to build a horse with programming</title>
       <link>https://tungbeier.github.io/fun/how-to-build-a-horse-with-programming/</link>
       <pubDate>Sun, 23 Jun 2019 14:11:54 +0200</pubDate>
       
