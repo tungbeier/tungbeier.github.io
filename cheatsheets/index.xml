@@ -17,13 +17,12 @@
       <pubDate>Sun, 04 Aug 2019 13:05:50 +0200</pubDate>
       
       <guid>https://tungbeier.github.io/cheatsheets/markdown/</guid>
-      <description>Headers # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6  Alternatively, underline can be use for H1 and H2:
+      <description>Headers Emphasis Lists Links Images Code Tables Blockquotes Horizontal Rule   Headers # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6  Alternatively, underline can be use for H1 and H2:
 H1 ===== H2 -----  Emphasis Italics
 *italics* _italics_  Bold
 **bold** __bold__  Strikethrough
 ~~strike through~~  Lists Ordered one (the numbers don&#39;t matter)
-1. First item 1. Second item 1. Sub-Item  Unordered one can use asterisks(*), minus(-) or plus(+)
-* First item - Second item + Third item * Sub-Item  Links [link](link url) [link with title](link url &amp;quot;title&amp;quot;) [link][reference as text or number] [reference as text or number]: url  Images !</description>
+1. First item 1. Second item 1. Sub-Item  Unordered one can use asterisks(*), minus(-) or plus(+)</description>
     </item>
     
   </channel>
