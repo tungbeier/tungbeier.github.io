@@ -9,8 +9,9 @@
 <meta name="description"
     content="In your git repository you can have one or multiple others git repositories as submodule. To add a git repository as a submodule, use the following command:
 git submodule add &amp;lt;submodule git url&amp;gt; &amp;lt;local path to the submodule repository&amp;gt; To update all of the submodules, issues the following command:
- version &amp;gt;= 1.8.2
-git submodule update --recursive --remote  version &amp;gt;= 1.7.3  git submodule update --recursive or
+  version &amp;gt;= 1.8.2
+git submodule update --recursive --remote   version &amp;gt;= 1.7.3
+git submodule update --recursive or
 git pull --recurse-submodules Note: In case the repository is checked out for the first time, the --init option has to be used." />
 <meta name="keywords" content="homepage, github, developer, hugo, coding, programming, backend, bavaria, germany" />
 <meta name="robots" content="noodp" />
@@ -30,7 +31,7 @@ git pull --recurse-submodules Note: In case the repository is checked out for th
 
 
 
-<link rel="stylesheet" href="https://tungbeier.github.io/main.min.91687bbfc139d7ff1a244bb6d7324425f9c4f424eaaad242b478e3b3cf56396a.css">
+<link rel="stylesheet" href="https://tungbeier.github.io/main.min.f7eccf4d975d8d8c06da15374e34cdee992cd522b1cf36d29ef4ae8e2827aab7.css">
 
 
 
@@ -40,30 +41,29 @@ git pull --recurse-submodules Note: In case the repository is checked out for th
 <link rel="manifest" href="https://tungbeier.github.io/site.webmanifest">
 <link rel="mask-icon" href="https://tungbeier.github.io/safari-pinned-tab.svg" color="#252627">
 <link rel="shortcut icon" href="https://tungbeier.github.io/favicon.ico">
-<meta name="theme-color" content="#252627">
-<meta itemprop="name" content="How to update git submodules">
+<meta name="theme-color" content="#252627"><meta itemprop="name" content="How to update git submodules">
 <meta itemprop="description" content="In your git repository you can have one or multiple others git repositories as submodule. To add a git repository as a submodule, use the following command:
 git submodule add &lt;submodule git url&gt; &lt;local path to the submodule repository&gt; To update all of the submodules, issues the following command:
- version &gt;= 1.8.2
-git submodule update --recursive --remote  version &gt;= 1.7.3  git submodule update --recursive or
+  version &gt;= 1.8.2
+git submodule update --recursive --remote   version &gt;= 1.7.3
+git submodule update --recursive or
 git pull --recurse-submodules Note: In case the repository is checked out for the first time, the --init option has to be used.">
-
-
 <meta itemprop="datePublished" content="2019-05-05T22:28:07&#43;02:00" />
 <meta itemprop="dateModified" content="2019-05-05T22:28:07&#43;02:00" />
 <meta itemprop="wordCount" content="102">
+<meta itemprop="image" content="https://tungbeier.github.io"/>
 
 
 
-<meta itemprop="keywords" content="git," />
-<meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="keywords" content="git," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://tungbeier.github.io"/>
 
 <meta name="twitter:title" content="How to update git submodules"/>
 <meta name="twitter:description" content="In your git repository you can have one or multiple others git repositories as submodule. To add a git repository as a submodule, use the following command:
 git submodule add &lt;submodule git url&gt; &lt;local path to the submodule repository&gt; To update all of the submodules, issues the following command:
- version &gt;= 1.8.2
-git submodule update --recursive --remote  version &gt;= 1.7.3  git submodule update --recursive or
+  version &gt;= 1.8.2
+git submodule update --recursive --remote   version &gt;= 1.7.3
+git submodule update --recursive or
 git pull --recurse-submodules Note: In case the repository is checked out for the first time, the --init option has to be used."/>
 
 
@@ -140,23 +140,25 @@ git pull --recurse-submodules Note: In case the repository is checked out for th
             <div class="post-content">
                 <p>In your git repository you can have one or multiple others git repositories as submodule.
 To add a git repository as a submodule, use the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule add &lt;submodule git url&gt; &lt;local path to the submodule repository&gt;</code></pre></div>
-<p>To update all of the submodules, issues the following command:</p>
-
+<pre><code class="language-git" data-lang="git">git submodule add &lt;submodule git url&gt; &lt;local path to the submodule repository&gt;
+</code></pre><p>To update all of the submodules, issues the following command:</p>
 <ul>
-<li><p><em>version &gt;= 1.8.2</em></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule update --recursive --remote</code></pre></div>
-<ul>
-<li><em>version &gt;= 1.7.3</em></li>
-</ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule update --recursive</code></pre></div>
-<p>or</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git pull --recurse-submodules</code></pre></div>
-<p>Note: In case the repository is checked out for <em>the first time</em>, the <code>--init</code> option has to be used.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule update --init --recursive</code></pre></div></li>
-
-<li><p><em>version &lt; 1.7.3</em></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-git" data-lang="git">git submodule foreach git pull origin master</code></pre></div></li>
+<li>
+<p><em>version &gt;= 1.8.2</em></p>
+<pre><code class="language-git" data-lang="git">git submodule update --recursive --remote
+</code></pre></li>
+<li>
+<p><em>version &gt;= 1.7.3</em></p>
+<pre><code class="language-git" data-lang="git">git submodule update --recursive
+</code></pre><p>or</p>
+<pre><code class="language-git" data-lang="git">git pull --recurse-submodules
+</code></pre><p>Note: In case the repository is checked out for <em>the first time</em>, the <code>--init</code> option has to be used.</p>
+<pre><code class="language-git" data-lang="git">git submodule update --init --recursive
+</code></pre></li>
+<li>
+<p><em>version &lt; 1.7.3</em></p>
+<pre><code class="language-git" data-lang="git">git submodule foreach git pull origin master
+</code></pre></li>
 </ul>
 
             </div>
@@ -212,7 +214,7 @@ To add a git repository as a submodule, use the following command:</p>
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2019</span>
+            <span>&copy; 2020</span>
             
                 <span><a href="https://tungbeier.github.io">Tung Beier</a></span>
             
@@ -241,7 +243,7 @@ To add a git repository as a submodule, use the following command:</p>
 
 
 
-<script type="text/javascript" src="https://tungbeier.github.io/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js" integrity="sha512-z3hx7UlHSoDtRXFU0k5h94ga2&#43;D5OElRp0rEa2iKOaTb&#43;mi8bTe66wWBht41Tq00h9Tufwg&#43;pMuoYMSGALaU8w=="></script>
+<script type="text/javascript" src="https://tungbeier.github.io/bundle.min.c3134e4a0a3d5ff628f7e932e4d6846626cad5e9457046b58e07c6036133ea0d788e9d330d51e709b43a7a8a22e1a4cf28aff9dbf27756a6a12b9c135260726a.js" integrity="sha512-wxNOSgo9X/Yo9&#43;ky5NaEZibK1elFcEa1jgfGA2Ez6g14jp0zDVHnCbQ6eooi4aTPKK/52/J3VqahK5wTUmByag=="></script>
 
 
 

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tungbeier.github.io/tags/cheatsheet/</loc>
+    <lastmod>2019-08-04T13:05:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tungbeier.github.io/cheatsheets/</loc>
     <lastmod>2019-08-04T13:05:50+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -14,9 +18,13 @@
   </url>
   
   <url>
+    <loc>https://tungbeier.github.io/tags/markdown/</loc>
+    <lastmod>2019-08-04T13:05:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tungbeier.github.io/tags/</loc>
     <lastmod>2019-08-04T13:05:50+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -32,7 +40,6 @@
   <url>
     <loc>https://tungbeier.github.io/</loc>
     <lastmod>2019-08-04T13:05:50+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -46,21 +53,13 @@
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/tags/cheatsheet/</loc>
-    <lastmod>2019-08-04T13:05:50+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/markdown/</loc>
-    <lastmod>2019-08-04T13:05:50+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://tungbeier.github.io/tags/git/</loc>
+    <lastmod>2019-08-04T12:41:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://tungbeier.github.io/posts/</loc>
     <lastmod>2019-08-04T12:41:28+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -69,26 +68,18 @@
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/tags/git/</loc>
-    <lastmod>2019-08-04T12:41:28+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://tungbeier.github.io/fun/bug-fixing-ways/</loc>
+    <lastmod>2019-07-22T21:24:42+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/fun/bug-fixing-ways/</loc>
+    <loc>https://tungbeier.github.io/tags/fun/</loc>
     <lastmod>2019-07-22T21:24:42+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://tungbeier.github.io/fun/</loc>
     <lastmod>2019-07-22T21:24:42+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tungbeier.github.io/tags/fun/</loc>
-    <lastmod>2019-07-22T21:24:42+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -99,7 +90,6 @@
   <url>
     <loc>https://tungbeier.github.io/tags/posts/</loc>
     <lastmod>2019-06-23T15:39:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -108,32 +98,28 @@
   </url>
   
   <url>
-    <loc>https://tungbeier.github.io/posts/2019/05/install-arch-arm-on-raspberry-pi/</loc>
-    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tungbeier.github.io/tags/archlinux/</loc>
     <lastmod>2019-05-25T21:12:52+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungbeier.github.io/tags/arm/</loc>
     <lastmod>2019-05-25T21:12:52+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungbeier.github.io/tags/howto/</loc>
     <lastmod>2019-05-25T21:12:52+02:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungbeier.github.io/posts/2019/05/install-arch-arm-on-raspberry-pi/</loc>
+    <lastmod>2019-05-25T21:12:52+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://tungbeier.github.io/tags/raspberry-pi/</loc>
     <lastmod>2019-05-25T21:12:52+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -154,12 +140,10 @@
   <url>
     <loc>https://tungbeier.github.io/tags/hugo-cli/</loc>
     <lastmod>2019-03-07T19:56:42+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungbeier.github.io/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
