@@ -21,7 +21,7 @@
 H1 ===== H2 ----- Emphasis Italics
 *italics* _italics_ Bold
 **bold** __bold__ Strikethrough
-~~strike through~~ Lists Ordered one (the numbers don&#39;t matter)
+~~strike through~~ Lists Ordered one (the numbers don&amp;rsquo;t matter)
 1. First item 1. Second item 1. Sub-Item Unordered one can use asterisks(*), minus(-) or plus(+)</description>
     </item>
     

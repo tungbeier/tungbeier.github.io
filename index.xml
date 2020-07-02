@@ -21,7 +21,7 @@
 H1 ===== H2 ----- Emphasis Italics
 *italics* _italics_ Bold
 **bold** __bold__ Strikethrough
-~~strike through~~ Lists Ordered one (the numbers don&#39;t matter)
+~~strike through~~ Lists Ordered one (the numbers don&amp;rsquo;t matter)
 1. First item 1. Second item 1. Sub-Item Unordered one can use asterisks(*), minus(-) or plus(+)</description>
     </item>
     
@@ -40,7 +40,7 @@ H1 ===== H2 ----- Emphasis Italics
       <pubDate>Mon, 22 Jul 2019 21:24:42 +0200</pubDate>
       
       <guid>https://tungbeier.github.io/fun/bug-fixing-ways/</guid>
-      <description>See the original post and more at monkeyuser.com.</description>
+      <description>See the original post and more at monkeyuser.com. </description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ H1 ===== H2 ----- Emphasis Italics
       <pubDate>Sun, 23 Jun 2019 15:39:00 +0200</pubDate>
       
       <guid>https://tungbeier.github.io/fun/if-the-world-was-created-by-a-programmer/</guid>
-      <description>See the original post at toggl blog.</description>
+      <description>See the original post at toggl blog. </description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@ H1 ===== H2 ----- Emphasis Italics
       <pubDate>Sun, 23 Jun 2019 14:11:54 +0200</pubDate>
       
       <guid>https://tungbeier.github.io/fun/how-to-build-a-horse-with-programming/</guid>
-      <description>See the original post at toggl blog.</description>
+      <description>See the original post at toggl blog. </description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@ H1 ===== H2 ----- Emphasis Italics
       
       <guid>https://tungbeier.github.io/posts/2019/05/install-arch-arm-on-raspberry-pi/</guid>
       <description>Start fdisk to partition the SD card:
-fdisk /dev/sdX At the fdisk prompt, delete old partitions and create a new one:
+fdisk /dev/sdX   At the fdisk prompt, delete old partitions and create a new one:
  Type o to clear out any partitions on the drive. Type p to list partitions. There should be no partitions left. Type n, then p for primary, 1 for the first partition on the drive, press ENTER to accept the default first sector, then type +100M for the last sector.</description>
     </item>
     
